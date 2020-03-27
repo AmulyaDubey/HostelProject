@@ -7,11 +7,13 @@
     <div style="text-align: center; margin-top: 25;">
         <h1>Login</h1>
                 <br>
-
+        {% for message in messages %}
+            <p style="color: red" id="messages">{{ message }}</p>
+        {% endfor %}
         <form method="post">
             {% csrf_token %}
             {{ form.as_p }}
-        <button class="btn btn-primary" type="submit" onclick="location.href='/account/details/';">Login</button>
+            <button class="btn btn-primary" type="submit" onclick="location.href='/account/details/';">Login</button>
         </form>
         <i>*Use your roll number as Username</i>
  </div>

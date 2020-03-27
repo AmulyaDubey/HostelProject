@@ -20,10 +20,10 @@
     <div class="container">
         <h2>Room Details:</h2>
         <br>
-        <p><strong>Room Number:</strong> AG-01</p>
-        <p><strong>Floor:</strong> Ground </p>
-        <p><strong>Occupancy:</strong> 2 </p>
-         <p><strong>Number of Beds Available:</strong> 2 </p>
+        <p><strong>Room Number:</strong>{{ user.number }}</p>
+        <p><strong>Floor:</strong>{{ user.floor }} </p>
+        <p><strong>Occupancy:</strong>{{ user.occupancy }} </p>
+         <p><strong>Number of Beds Available:</strong> {{ user.aval }} </p>
         <button class="btn btn-primary" type="submit" name="button" onclick="location.href='details'"> Confirm </button>
     </div>
 </body>
