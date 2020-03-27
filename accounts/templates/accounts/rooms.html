@@ -1,0 +1,348 @@
+<html>
+<head>
+    <title>Rooms</title>
+    <link rel="stylesheet"
+              href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+              integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+              crossorigin="anonymous">
+     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body>
+       <div style="background:black; padding-bottom: 10px " class="jumbotron">
+            <h1 style="color: white">Available Rooms</h1>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Ground Floor
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="/account">First Floor</a>
+                 <a class="dropdown-item" href="login"> Second FLoor</a>
+            </div>
+        </div>
+    {% load static %}
+
+        <div style="position:absolute; top:150px; left:300px; ">
+         <img src="{% static 'accounts/images/wc.png' %}" width="100px" height="50px"/>
+        <p>Toilet-1</p>
+
+    </div>
+
+    <div style="position:absolute; top:150px; left:450px; ">
+        <a href='/account/confirm/'><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-01</p>
+
+    </div>
+       <div style="position:absolute; top:150px; left:550px;">
+            <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+           <p>AG-02</p>
+       </div>
+       <div style="position:absolute; top:150px; left:650px; ">
+        <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-03</p>
+
+    </div>
+       <div style="position:absolute; top:150px; left:750px; ">
+        <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-04</p>
+
+    </div>
+       <div style="position:absolute; top:150px; left:850px; ">
+       <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-05</p>
+
+    </div>
+       <div style="position:absolute; top:150px; left:950px; ">
+        <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-06</p>
+
+    </div>
+     <div style="position:absolute; top:150px; left:1100px; ">
+        <img src= "{% static 'accounts/images/wc.png' %}" width="100px" height="50px"/>
+        <p>Toilet-2</p>
+
+    </div>
+
+
+       </div>
+       <div style="position:absolute; top:200px; left:200px; ">
+        <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-22</p>
+
+    </div>
+        </div>
+       <div style="position:absolute; top:300px; left:200px; ">
+        <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-21</p>
+
+    </div>
+        </div>
+       <div style="position:absolute; top:400px; left:200px; ">
+       <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-20</p>
+
+    </div>
+        </div>
+       <div style="position:absolute; top:500px; left:200px; ">
+       <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-19</p>
+
+    </div>
+       </div>
+        </div>
+       <div style="position:absolute; top:600px; left:200px; ">
+        <a href="confirm.html"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-18</p>
+
+    </div>
+
+    </div>
+     <div style="position:absolute; top:700px; left:300px; ">
+        <img src= "{% static 'accounts/images/wc.png' %}" width="100px" height="50px"/>
+        <p>Toilet-4</p>
+
+    </div>
+
+       </div>
+       </div>
+        </div>
+       <div style="position:absolute; top:750px; left:450px; ">
+        <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-17</p>
+
+    </div>
+       </div>
+       </div>
+        </div>
+       <div style="position:absolute; top:750px; left:550px; ">
+        <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-16</p>
+
+    </div>
+       </div>
+       </div>
+        </div>
+       <div style="position:absolute; top:750px; left:650px; ">
+        <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-15</p>
+
+    </div>
+    </div>
+       </div>
+        </div>
+       <div style="position:absolute; top:750px; left:750px; ">
+        <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-14</p>
+
+    </div>
+       </div>
+       </div>
+        </div>
+       <div style="position:absolute; top:750px; left:850px; ">
+        <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-13</p>
+
+    </div>
+       </div>
+       </div>
+        </div>
+       <div style="position:absolute; top:750px; left:950px; ">
+        <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-12</p>
+
+    </div>
+
+  </div>
+     <div style="position:absolute; top:700px; left:1050px; ">
+        <img src= "{% static 'accounts/images/wc.png' %}" width="100px" height="50px"/>
+        <p>Toilet-3</p>
+
+    </div>
+
+
+    </div>
+        </div>
+       <div style="position:absolute; top:200px; left:1200px; ">
+       <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-07</p>
+
+    </div>
+       </div>
+        </div>
+       <div style="position:absolute; top:300px; left:1200px; ">
+       <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-08</p>
+
+    </div>
+    </div>
+        </div>
+       <div style="position:absolute; top:400px; left:1200px; ">
+       <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-09</p>
+
+    </div>
+       </div>
+        </div>
+       <div style="position:absolute; top:500px; left:1200px; ">
+       <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-10</p>
+
+    </div>
+       </div>
+        </div>
+       <div style="position:absolute; top:600px; left:1200px; ">
+       <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-11</p>
+
+    </div>
+
+
+
+
+    </div>
+        </div>
+       <div style="position:absolute; top:250px; left:1100px; ">
+       <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-28</p>
+
+    </div>
+       </div>
+        </div>
+       <div style="position:absolute; top:350px; left:1100px; ">
+       <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-29</p>
+
+    </div>
+       </div>
+        </div>
+       <div style="position:absolute; top:450px; left:1100px; ">
+       <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-30</p>
+
+    </div>
+
+       <div style="position:absolute; top:550px; left:1100px; ">
+       <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-31</p>
+
+    </div>
+       </div>
+        </div>
+       <div style="position:absolute; top:650px; left:1100px; ">
+       <a href="confirm">
+
+    </div>
+
+
+
+       </div>
+       </div>
+        </div>
+       <div style="position:absolute; top:650px; left:500px; ">
+       <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-36</p>
+
+    </div>
+        </div>
+       </div>
+        </div>
+       <div style="position:absolute; top:650px; left:600px; ">
+       <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-35</p>
+
+    </div>
+        </div>
+       </div>
+        </div>
+       <div style="position:absolute; top:650px; left:700px; ">
+       <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-34</p>
+
+    </div>
+        </div>
+       </div>
+        </div>
+       <div style="position:absolute; top:650px; left:800px; ">
+       <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-33</p>
+
+    </div>
+        </div>
+       </div>
+        </div>
+       <div style="position:absolute; top:650px; left:900px; ">
+       <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-32</p>
+
+    </div>
+
+
+
+        </div>
+       </div>
+        </div>
+       <div style="position:absolute; top:250px; left:300px; ">
+       <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-40</p>
+
+    </div>
+        </div>
+       </div>
+        </div>
+       <div style="position:absolute; top:350px; left:300px; ">
+       <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-39</p>
+
+    </div>
+        </div>
+       </div>
+        </div>
+       <div style="position:absolute; top:450px; left:300px; ">
+       <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-38</p>
+
+    </div>
+        </div>
+       </div>
+        </div>
+       <div style="position:absolute; top:550px; left:300px; ">
+       <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-37</p>
+
+    </div>
+        </div>
+       </div>
+        </div>
+       <div style="position:absolute; top:650px; left:300px; ">
+       <a href="confirm">
+       </div>
+        </div>
+
+       <div style="position:absolute; top:250px; left:500px; ">
+       <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-23</p>
+       </div>
+        <div style="position:absolute; top:250px; left:600px; ">
+       <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-24</p>
+       </div>
+        <div style="position:absolute; top:250px; left:700px; ">
+       <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-25</p>
+       </div>
+        <div style="position:absolute; top:250px; left:800px; ">
+       <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-26</p>
+       </div>
+        <div style="position:absolute; top:250px; left:900px; ">
+       <a href="confirm"><img src= "{% static 'accounts/images/blue.png' %}" width="45px" height="45px"/></a>
+        <p>AG-27</p>
+       </div>
+
+    </body>
+
+
+
+</html>
