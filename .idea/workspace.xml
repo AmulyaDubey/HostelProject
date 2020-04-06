@@ -4,8 +4,8 @@
     <list default="true" id="a8f86a79-c2f2-4e4c-adb7-231ae754048c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/confirm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/rooms.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/rooms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/registration/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
     </list>
@@ -102,7 +102,9 @@
       <workItem from="1585222882045" duration="10317000" />
       <workItem from="1585237066547" duration="23540000" />
       <workItem from="1585316475530" duration="1363000" />
-      <workItem from="1585318178516" duration="6214000" />
+      <workItem from="1585318178516" duration="13997000" />
+      <workItem from="1585841811796" duration="7000" />
+      <workItem from="1586176026477" duration="10000" />
     </task>
     <servers />
   </component>
@@ -134,9 +136,21 @@
     </state>
     <state width="1027" height="162" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1585317925044" />
     <state width="1027" height="162" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1585236521700" />
-    <state x="519" y="301" key="com.intellij.ide.util.TipDialog" timestamp="1585318220551">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state x="519" y="299" key="com.intellij.ide.util.TipDialog" timestamp="1586176028392">
+      <screen x="0" y="23" width="1440" height="804" />
     </state>
+    <state x="519" y="299" key="com.intellij.ide.util.TipDialog/0.23.1440.804@0.23.1440.804" timestamp="1586176028392" />
     <state x="519" y="301" key="com.intellij.ide.util.TipDialog/0.23.1440.811@0.23.1440.811" timestamp="1585318220551" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/accounts/templates/accounts/confirm.html</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

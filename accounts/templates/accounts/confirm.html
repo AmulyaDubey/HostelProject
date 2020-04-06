@@ -24,7 +24,14 @@
         <p><strong>Floor:</strong>{{ user.floor }} </p>
         <p><strong>Occupancy:</strong>{{ user.occupancy }} </p>
          <p><strong>Number of Beds Available:</strong> {{ user.aval }} </p>
-        <button class="btn btn-primary" type="submit" name="button" onclick="location.href='details'"> Confirm </button>
+         <form method="post">
+             {% csrf_token %}
+                {% if user.aval %}
+                    <button class="btn btn-primary" type="submit" name="button" onclick="location.href='/account/details'"> Confirm </button>
+                 {% else %}
+                    <button class="btn btn-primary" type="submit" name="button" onclick="location.href='/account/details'" disabled> Confirm </button>
+                 {% endif %}
+         </form>
     </div>
 </body>
 </html>

@@ -20,7 +20,7 @@
     <p><strong> Current Hostel:</strong> {{ user.hostel }} </p>
     <p><strong> Room alloted:</strong> {{ user.alloted }}</p>
 
-    <button class="btn btn-primary" type="submit" name="button" onclick="location.href='/account/room';"> Choose Room</button>
+    <button class="btn btn-primary" type="submit" name="button" onclick="location.href='/account/room/{{ user.roll }}';"> Choose Room</button>
 <div style="text-align:right;margin-right=10px">
      <button class="btn btn-primary btn-sm" type="submit" name="button" onclick="location.href='/account';">Logout</button>
   </div>

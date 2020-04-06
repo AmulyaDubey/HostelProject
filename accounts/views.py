@@ -37,10 +37,26 @@ def details (request, pk ):
     context={'user':user}
     return render(request, 'accounts/details.html', context)
 
-def room_aval ( request ):
-    return render( request, 'accounts/rooms.html',)
+def room_aval ( request, ro ):
+    user=Login.objects.get(roll=ro)
+    context={'user':user}
+    return render( request, 'accounts/rooms.html',context)
 
-def confirm(request, pk):
-    user = Room.objects.get(number=pk)
-    context = {'user': user}
-    return render( request, 'accounts/confirm.html',context)
+def confirm(request, pk1, pk2):
+    user2 = Room.objects.get(number=pk2)
+    user1=Login.objects.get(roll=pk1)
+    context1 = {'user': user1}
+    context2 = {'user': user2}
+    print("YOOOOO")
+    if request.method=='POST':
+        print("YOOOOO")
+        user2.aval -=1
+        if user1.alloted != "NULL" :
+            user3=Room.objects.get(number= user1.alloted)
+            user3.aval +=1
+            user3.save()
+        user1.alloted= user2.number
+        user2.save()
+        user1.save()
+        return render(request,"accounts/details.html",context1)
+    return render(request, "accounts/confirm.html",context2)
